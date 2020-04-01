@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #FFA581;
+        }
+        #letters {
+            outline: none;
+            border: 2px solid #333;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            padding: 15px 30px;
+            font-size: 20px;
+        }
+        label {
+            position: absolute;
+            top:50%;
+            left: 70%;
+            font-size: 40px;
+            transform: translate(-50%, -50%);
+            color: #333;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="whatever" id="letters">
+    <label id="result">Result:</label>
+    <script src="app.js"></script>
+</body>
+</html>

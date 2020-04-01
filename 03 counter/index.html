@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        body {
+            background-color: #B2FFA2;
+        }
+        .container {
+            height: 70vh;
+            width: 40%;
+            position: relative;
+            margin: 15vh auto;
+            background-color: #066F99;
+            border: 5px solid #333;
+        }
+
+        h2 {
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            color: #ccc;
+        }
+
+        h3 {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 80px;
+            color: #7ed6b2; 
+        }
+
+        #leftButton {
+            position: absolute;
+            top: 80%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            border-radius: 100px;
+            outline: none;
+            border: none;
+            background-color: #7ed6b2;
+            font-size: 50px;
+            padding: 5px 10px;
+            transition: .2s ease-in;
+        }
+
+        #rightButton {
+            position: absolute;
+            top: 80%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            border-radius: 100px;
+            outline: none;
+            border: none;
+            background-color: #7ed6b2;
+            font-size: 50px;
+            padding: 5px 10px;
+            transition: .2s ease-in;
+        }
+
+        #leftButton:hover {
+            cursor: pointer;
+            background-color: #B2FFA2;
+        }
+
+        #rightButton:hover {
+            cursor: pointer;
+            background-color: #B2FFA2;
+        }
+
+        #leftButton:active {
+            top: 81%;
+        }
+
+        #rightButton:active {
+            top: 81%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Counter</h2>
+        <h3 id='counter'>[0]</h3>
+        <button id="leftButton">-</button>
+        <button id="rightButton">+</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

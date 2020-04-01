@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #FFA421;
+            transition: .2s ease-in;
+        }
+
+        button {
+            background-color: #FF4578;
+            color: 000;
+            font-weight: 600;
+            border: none;
+            outline: none;
+            padding: 20px 40px;
+            border-radius: 20px;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transition: .2s ease-in;
+        }
+
+        button:hover {
+            background-color: #FF2599;
+            cursor: pointer;
+        }
+
+        button:active {
+            top: 51%;
+        }
+    </style>
+</head>
+<body>
+    <button id="background">Change background</button>
+    <script src="app.js"></script>
+</body>
+</html>
