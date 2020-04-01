@@ -1,2 +1,2 @@
-# javascript-small-projects
-Javascript small projects
+# Javascript small project for beginners :)
+
